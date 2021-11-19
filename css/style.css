@@ -1,25 +1,6 @@
-.show{
-    display: none;
-  }
-  .release{
-    display: none;
-  }
-  .prove{
-    display: none;
-  }
-  .display{
-    display: none;
-  }
-  .perform{
-    display: none;
-  }
-  .visible{
-    display: none;
-  }
-h4{
-  cursor: pointer;
-  
+body{
+  background-color: gold;
 }
-h4:hover{
-  text-decoration: underline;
+#drop{
+  display: none;
 }

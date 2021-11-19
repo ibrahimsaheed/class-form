@@ -1,26 +1,19 @@
-$(document).ready(function() {
-  $(".javascript").click(function() {
-    $(".show").toggle();
-    $(".hide").toggle();
-  });
-  $(".html").click(function(){
-    $(".release").toggle();
-    $(".cover").toggle();
-  });
-$(".bootstrap").click(function(){
-  $(".prove").toggle();
-    $(".conceal").toggle();
-});
-$(".jquery").click(function(){
-  $(".display").toggle();
-    $(".veil").toggle();
-});
-$(".css").click(function(){
-  $(".perform").toggle();
-    $(".shroud").toggle();
-});
-$(".var").click(function(){
-$(".visible").toggle();
-$(".mask").toggle();
-});
-});
+$(document).ready(function () {
+      $(".form").submit(function(event){
+        event.preventDefault()
+      $("#Submit").click(function () {
+        $("#drop").toggle()
+      })
+        let first = $("#first").val();
+        let second = $("#second").val();
+        let last = $("#last").val();
+        let mail = $("#mail").val();
+        let age = $("#age").val();
+
+        $(".first").text(first)
+        $(".second").text(second)
+        $(".last").text(last)
+        $(".mail").text(mail)
+        $(".age").text(age)
+      });
+    });

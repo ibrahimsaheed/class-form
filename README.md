@@ -1,14 +1,17 @@
-# JAVA SCRIPT LEARNING WEBSITE
- LANGUAGES USED
-
-* HTML
-* jQuery
-* java script
-* CSS
+# LOGIN PAGE
+Technologies used
+* css
 * Bootstrap
+* Javascript
+* JQUERY
+* HTML
+## Known Bugs
+* I encounterd problems in assigning values to the letter
+* I encountered problems designing the page
+
 # Description
-#### This website is used to briefly explain some javascript related languages(html, css etc)
-#### as well as other javascript concepts.
+#### This is a class information collector that allows you to automatically generate a letter or manually write it
 
+# Author
+#### Saheed Ibrahim
 
-# Designed by Heritage and Ibrahim
